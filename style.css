@@ -170,7 +170,6 @@ body {
 .input-container {
   display: flex;
   justify-content: center;
-  gap: 10px;
   width: 100%;
   margin: 0 auto;
   position: absolute;
@@ -180,7 +179,6 @@ body {
 }
 
 .add-btn {
-
   background-color: var(--primary-color);
   color: #fff;
   border: none;
@@ -190,4 +188,8 @@ body {
   font-weight: 700;
   align-content: center;
   cursor: pointer;
+}
+
+.active-date {
+  background-color: #E6D9CB;
 }
