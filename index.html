@@ -33,15 +33,29 @@
       <!--Date Screen-->
 
       <div class="date-container"></div>
-
       <!--Page-03-->
       <!--Todo-Container-->
 
-      <div class="todo-container"></div>
+      <h1 class="today none">Today</h1>
+      <div class="btn-container">
+        <button class="category-all">All</button>
+      </div>
 
-      <!--For AddTodo Button-->
-      <div class="add-btn-container"></div>
+      <div class="todo-container"></div>
     </main>
+
+    <button class="todo-button none">
+      <i class="fa-solid fa-plus"></i>
+    </button>
+
+    <div class="pop-up">
+      <input type="text" placeholder="Enter Your Task" class="js-todo" />
+      <input type="date" class="js-date" />
+      <input type="text" placeholder="Category" class="js-category" />
+      <button class="add-todo">Add</button>
+    </div>
+
+    <h1 class="empty none">There Are Currently No Task Added</h1>
     <script src="app.js" type="module"></script>
     <script src="dates.js" type="module"></script>
   </body>
