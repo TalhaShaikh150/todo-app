@@ -38,7 +38,7 @@
 
       <h1 class="today none">Today</h1>
       <div class="btn-container">
-        <button class="category-btn none">All</button>
+        <button class="category-btn is-toggled none">All</button>
       </div>
 
       <div class="todo-container"></div>
@@ -52,10 +52,16 @@
       <input type="text" placeholder="Enter Your Task" class="js-todo" />
       <input type="date" class="js-date" />
       <input type="text" placeholder="Category" class="js-category" />
-      <button class="add-todo">Add</button>
+      <div class="btn-container-2">
+        <button class="add-todo">Add</button>
+        <button class="back-todo">Back</button>
+      </div>
     </div>
 
-    <h1 class="empty none">There Are Currently No Task Added</h1>
+    <div class="empty-container none">
+      <h1 class="empty">There Are Currently No Task Added</h1>
+    </div>
+
     <script src="scripts/app.js" type="module"></script>
     <script src="scripts/dates.js" type="module"></script>
   </body>
